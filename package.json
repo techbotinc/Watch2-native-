@@ -1,0 +1,12 @@
+{
+  "name": "watch-together",
+  "version": "1.0.0",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-youtube-iframe": "latest",
+    "socket.io": "^4.5.0"
+  }
+}
