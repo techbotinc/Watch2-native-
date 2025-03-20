@@ -25,4 +25,9 @@ io.on("connection", (socket) => {
   });
 });
 
+// Add a route to check if the server is running
+app.get("/", (req, res) => {
+  res.send("Watch Together Server is Running...");
+});
+
 server.listen(3000, () => console.log("Server running on port 3000"));
